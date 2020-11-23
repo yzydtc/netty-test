@@ -26,6 +26,10 @@
   </build>
   <modules>
     <module>../03-unpacking</module>
+    <module>../04-linebasedframedecoder</module>
+    <module>../04-delimiterbasedframedecoder</module>
+    <module>../04-fixedlengthframedecoder</module>
+    <module>../04-lengthfieldbasedframedecoder</module>
   </modules>
 
 

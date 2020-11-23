@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00-parent/00-parent.iml" filepath="$PROJECT_DIR$/00-parent/00-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-primary/01-primary.iml" filepath="$PROJECT_DIR$/01-primary/01-primary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-socket/02-socket.iml" filepath="$PROJECT_DIR$/02-socket/02-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-unpacking/03-unpacking.iml" filepath="$PROJECT_DIR$/03-unpacking/03-unpacking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-delimiterbasedframedecoder/04-delimiterbasedframedecoder.iml" filepath="$PROJECT_DIR$/04-delimiterbasedframedecoder/04-delimiterbasedframedecoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-fixedlengthframedecoder/04-fixedlengthframedecoder.iml" filepath="$PROJECT_DIR$/04-fixedlengthframedecoder/04-fixedlengthframedecoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-lengthfieldbasedframedecoder/04-lengthfieldbasedframedecoder.iml" filepath="$PROJECT_DIR$/04-lengthfieldbasedframedecoder/04-lengthfieldbasedframedecoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-linebasedframedecoder/04-linebasedframedecoder.iml" filepath="$PROJECT_DIR$/04-linebasedframedecoder/04-linebasedframedecoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-stickbag/04-stickbag.iml" filepath="$PROJECT_DIR$/04-stickbag/04-stickbag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xyz-netty.iml" filepath="$PROJECT_DIR$/.idea/xyz-netty.iml" />
+    </modules>
+  </component>
+</project>

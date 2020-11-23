@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="04-lengthfieldbasedframedecoder" />
+        <module name="04-linebasedframedecoder" />
+        <module name="00-parent" />
+        <module name="04-fixedlengthframedecoder" />
+        <module name="04-delimiterbasedframedecoder" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="00-parent" target="1.5" />
+      <module name="01-primary" target="1.5" />
+      <module name="02-socket" target="8" />
+      <module name="03-unpacking" target="8" />
+      <module name="04-delimiterbasedframedecoder" target="8" />
+      <module name="04-fixedlengthframedecoder" target="8" />
+      <module name="04-lengthfieldbasedframedecoder" target="8" />
+      <module name="04-linebasedframedecoder" target="8" />
+      <module name="04-stickbag" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

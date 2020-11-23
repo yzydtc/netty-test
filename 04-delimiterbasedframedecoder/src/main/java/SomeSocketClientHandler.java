@@ -1,6 +1,5 @@
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
 
 /***
  * 客户端处理类
@@ -11,14 +10,14 @@ public class SomeSocketClientHandler extends ChannelInboundHandlerAdapter {
       "which enables quick and easy development of network applications " +
       "such as protocol servers and clients. It greatly simplifies and " +
       "streamlines network programming such as TCP and UDP socket server." +
-      "'Quick and easy' doesn't mean that a resulting application will " +
+      "'Quick and easy' doesn't mean that ###---### a resulting application will " +
       "suffer from a maintainability or a performance issue. Netty has " +
       "this guide and play with Netty.In other words, Netty is an NIO " +
       "framework that enables quick and easy development of network " +
-      "as protocol servers and clients. It greatly simplifies and network " +
+      "as protocol servers and clients. ###---### It greatly simplifies and network " +
       "programming such as TCP and UDP socket server development.'Quick " +
       "not mean that a resulting application will suffer from a maintain" +
-      "performance issue. Netty has been designed carefully with the expe " +
+      "performance issue. ###---### Netty has been designed carefully with the expe " +
       "from the implementation of a lot of protocols such as FTP, SMTP, " +
       " binary and text-based legacy protocols. As a result, Netty has " +
       "a way to achieve of development, performance, stability, without " +
@@ -84,7 +83,8 @@ public class SomeSocketClientHandler extends ChannelInboundHandlerAdapter {
       "from the implementation of a lot of protocols such as FTP, SMTP, " +
       " binary and text-based legacy protocols. As a result, Netty has " +
       "a way to achieve of development, performance, stability, without " +
-      "a compromise.====================================================="+ System.getProperty("line.separator");
+      "a compromise.=====================================================";
+
   @Override
   public void channelActive(ChannelHandlerContext ctx) throws Exception {
     ctx.channel().writeAndFlush(message);

@@ -9,8 +9,7 @@
     <relativePath>../02-socket/pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-
-  <artifactId>04-linebasedframedecoder</artifactId>
+  <artifactId>04-delimiterbasedframedecoder</artifactId>
 
 
 </project>
