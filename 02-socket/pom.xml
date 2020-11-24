@@ -30,6 +30,9 @@
     <module>../04-delimiterbasedframedecoder</module>
     <module>../04-fixedlengthframedecoder</module>
     <module>../04-lengthfieldbasedframedecoder</module>
+    <module>../05-websocket</module>
+    <module>../06-webchat</module>
+    <module>../07-idle</module>
   </modules>
 
 
