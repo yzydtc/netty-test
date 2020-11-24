@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/05-websocket/05-websocket.iml" filepath="$PROJECT_DIR$/05-websocket/05-websocket.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-webchat/06-webchat.iml" filepath="$PROJECT_DIR$/06-webchat/06-webchat.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-idle/07-idle.iml" filepath="$PROJECT_DIR$/07-idle/07-idle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-heartbeat/08-heartbeat.iml" filepath="$PROJECT_DIR$/08-heartbeat/08-heartbeat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-tomcat/09-tomcat.iml" filepath="$PROJECT_DIR$/09-tomcat/09-tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xyz-netty.iml" filepath="$PROJECT_DIR$/.idea/xyz-netty.iml" />
     </modules>
   </component>

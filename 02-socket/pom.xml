@@ -33,6 +33,7 @@
     <module>../05-websocket</module>
     <module>../06-webchat</module>
     <module>../07-idle</module>
+    <module>../08-heartbeat</module>
   </modules>
 
 
