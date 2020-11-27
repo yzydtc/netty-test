@@ -8,6 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/00-parent/pom.xml" />
         <option value="$PROJECT_DIR$/01-primary/pom.xml" />
+        <option value="$PROJECT_DIR$/10-rpc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/09-tomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/10-rpc-api/pom.xml" />
+        <option value="$PROJECT_DIR$/10-rpc-client/pom.xml" />
       </list>
     </option>
   </component>

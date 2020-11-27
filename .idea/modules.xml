@@ -16,6 +16,9 @@
       <module fileurl="file://$PROJECT_DIR$/07-idle/07-idle.iml" filepath="$PROJECT_DIR$/07-idle/07-idle.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-heartbeat/08-heartbeat.iml" filepath="$PROJECT_DIR$/08-heartbeat/08-heartbeat.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-tomcat/09-tomcat.iml" filepath="$PROJECT_DIR$/09-tomcat/09-tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-rpc-api/10-rpc-api.iml" filepath="$PROJECT_DIR$/10-rpc-api/10-rpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-rpc-client/10-rpc-client.iml" filepath="$PROJECT_DIR$/10-rpc-client/10-rpc-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-rpc-server/10-rpc-server.iml" filepath="$PROJECT_DIR$/10-rpc-server/10-rpc-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xyz-netty.iml" filepath="$PROJECT_DIR$/.idea/xyz-netty.iml" />
     </modules>
   </component>

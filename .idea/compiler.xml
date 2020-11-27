@@ -10,6 +10,7 @@
         <module name="04-lengthfieldbasedframedecoder" />
         <module name="04-fixedlengthframedecoder" />
         <module name="05-websocket" />
+        <module name="10-rpc-api" />
         <module name="00-parent" />
         <module name="06-webchat" />
         <module name="04-delimiterbasedframedecoder" />
@@ -32,6 +33,9 @@
       <module name="07-idle" target="8" />
       <module name="08-heartbeat" target="8" />
       <module name="09-tomcat" target="1.8" />
+      <module name="10-rpc-api" target="8" />
+      <module name="10-rpc-client" target="8" />
+      <module name="10-rpc-server" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

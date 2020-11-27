@@ -1,6 +1,7 @@
 package tomcat;
 
 import io.netty.bootstrap.ServerBootstrap;
+import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
 import io.netty.channel.ChannelPipeline;
@@ -30,7 +31,7 @@ public class TomcatServer {
   }
 
   //启动tomcat
-  public void start() {
+  public void start() throws Exception {
     cacheClassName(basePackage);
     runServer();
   }
@@ -52,7 +53,7 @@ public class TomcatServer {
       if (file.isDirectory()) {
         cacheClassName(basePackage + "." + file.getName());
       } else {
-        String simpleClassName = file.getName().replace("class", "").trim();
+        String simpleClassName = file.getName().replace(".class", "").trim();
         nameToClassNameMap.put(simpleClassName.toLowerCase(), basePackage + "." + simpleClassName);
       }
     }
@@ -61,7 +62,7 @@ public class TomcatServer {
 
 
   //Netty启动server的套路
-  private void runServer() {
+  private void runServer() throws Exception{
     EventLoopGroup parent = new NioEventLoopGroup();
     EventLoopGroup child = new NioEventLoopGroup();
     try {
@@ -75,14 +76,15 @@ public class TomcatServer {
           .childHandler(new ChannelInitializer<SocketChannel>() {
 
             @Override
-            protected void initChannel(SocketChannel socketChannel) throws Exception {
+            protected void initChannel(SocketChannel socketChannel) {
               ChannelPipeline pipeline = socketChannel.pipeline();
               pipeline.addLast(new HttpServerCodec());
               pipeline.addLast(new TomcatHandler(nameToServnetMap, nameToClassNameMap));
             }
           });
-
-
+      ChannelFuture future = bootstrap.bind(9861).sync();
+      System.out.println("tomcat启动,端口号:9861");
+      future.channel().closeFuture().sync();
     } finally {
       parent.shutdownGracefully();
       child.shutdownGracefully();

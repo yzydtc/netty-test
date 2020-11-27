@@ -12,9 +12,6 @@
 
   <artifactId>08-heartbeat</artifactId>
   <packaging>pom</packaging>
-  <modules>
-    <module>../09-tomcat</module>
-  </modules>
 
 
 </project>
