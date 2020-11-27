@@ -27,7 +27,8 @@ public class RpcServer {
   private Map<String, Object> registryMap = new HashMap<>();
   private List<String> classCache = new ArrayList<>();
 
-  public void publish(String providerPackage) throws ClassNotFoundException {
+  public void publish(String providerPackage)
+      throws ClassNotFoundException, InstantiationException, IllegalAccessException {
     getProviderClass(providerPackage);
     doRegister();
   }
@@ -48,7 +49,8 @@ public class RpcServer {
     classCache.forEach(System.out::println);
   }
 
-  private void doRegister() throws ClassNotFoundException {
+  private void doRegister()
+      throws ClassNotFoundException, IllegalAccessException, InstantiationException {
     if (classCache.size() == 0) return;
 
     for (String className : classCache) {
@@ -56,6 +58,7 @@ public class RpcServer {
       Class<?> [] interfaces = clazz.getInterfaces();
       if (interfaces.length == 1) {
         String interfaceName = interfaces[0].getName();
+        registryMap.put(interfaceName,clazz.newInstance());
 
       }
     }

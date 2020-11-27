@@ -62,7 +62,7 @@ public class RpcProxy {
       //将调用信息传递给Netty服务端
       InvokeMessage message = new InvokeMessage();
       message.setClassName(clazz.getName());
-      message.setMethodName(clazz.getName());
+      message.setMethodName(method.getName());
       message.setParamTypes(method.getParameterTypes());
       message.setParamValues(args);
       //将远程调用信息发送给Server
