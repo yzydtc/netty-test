@@ -1,4 +1,4 @@
-package com.xyz.consumer;
+package com.xyz.service;
 
 /***
  * 业务接口

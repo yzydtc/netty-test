@@ -19,6 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/10-rpc-api/10-rpc-api.iml" filepath="$PROJECT_DIR$/10-rpc-api/10-rpc-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-rpc-client/10-rpc-client.iml" filepath="$PROJECT_DIR$/10-rpc-client/10-rpc-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-rpc-server/10-rpc-server.iml" filepath="$PROJECT_DIR$/10-rpc-server/10-rpc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-dubbo-api/11-dubbo-api.iml" filepath="$PROJECT_DIR$/11-dubbo-api/11-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-dubbo-client/11-dubbo-client.iml" filepath="$PROJECT_DIR$/11-dubbo-client/11-dubbo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-dubbo-server/11-dubbo-server.iml" filepath="$PROJECT_DIR$/11-dubbo-server/11-dubbo-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xyz-netty.iml" filepath="$PROJECT_DIR$/.idea/xyz-netty.iml" />
     </modules>
   </component>

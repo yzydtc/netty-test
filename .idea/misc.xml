@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/09-tomcat/pom.xml" />
         <option value="$PROJECT_DIR$/10-rpc-api/pom.xml" />
         <option value="$PROJECT_DIR$/10-rpc-client/pom.xml" />
+        <option value="$PROJECT_DIR$/11-dubbo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/11-dubbo-server/pom.xml" />
+        <option value="$PROJECT_DIR$/11-dubbo-client/pom.xml" />
       </list>
     </option>
   </component>
